@@ -1,0 +1,25 @@
+body {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.container {
+}
+
+.logo {
+    margin: 50px;
+}
+
+.title {
+    font-family: serif;
+    font-size: 72px;
+    color: black;
+}
+
+.description {
+    color: black;
+}
