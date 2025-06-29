@@ -5,27 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Понимание Контекста</title>
     <link rel="stylesheet" href="styles.css">
-    <script>
-      window.onload = function() {
-          const logo = document.getElementById('logo');
-
-          const flickerDuration = 5000;
-          const endTime = Date.now() + flickerDuration;
-
-          function flicker() {
-              if (Date.now() >= endTime) {
-                  logo.style.opacity = 1;
-                  return;
-              }
-
-              logo.style.opacity = Math.random() < 0.5 ? 0 : 1;
-
-              const randomPause = Math.random() * 500;
-              setTimeout(flicker, randomPause);
-          }
-          flicker();
-      };
-    </script>
   </head>
   <body>
     <div class="container">
